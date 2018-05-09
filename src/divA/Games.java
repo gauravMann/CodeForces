@@ -16,6 +16,7 @@ public class Games {
 			colors[i][0] = scn.nextInt();
 			colors[i][1] = scn.nextInt();
 		}
+		scn.close();
 
 		/*
 		 * Outer loops selects i th team and compares it's home color with all

@@ -16,6 +16,7 @@ public class SerejaAndDima {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scn.nextInt();
 		}
+		scn.close();
 		int left = 0;
 		int right = arr.length - 1;
 

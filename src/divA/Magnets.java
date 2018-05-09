@@ -18,6 +18,7 @@ public class Magnets {
 			}
 			prev = x;
 		}
+		scn.close();
 
 		System.out.print(groupCount);
 

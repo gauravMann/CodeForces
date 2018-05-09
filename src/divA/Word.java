@@ -27,6 +27,7 @@ public class Word {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		String s = scn.next();
+		scn.close();
 		fixString(s);
 
 	}

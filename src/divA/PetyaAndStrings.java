@@ -22,6 +22,7 @@ public class PetyaAndStrings {
 		Scanner scn = new Scanner(System.in);
 		String one = scn.next();
 		String two = scn.next();
+		scn.close();
 		int ans = lexicographical(one, two);
 		System.out.print(ans);
 

@@ -9,6 +9,7 @@ public class BearandBigBrother {
 		Scanner scn = new Scanner(System.in);
 		int a = scn.nextInt();
 		int b = scn.nextInt();
+		scn.close();
 		int count = 0;
 		while (a <= b) {
 			a = 3 * a;

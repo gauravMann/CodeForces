@@ -8,6 +8,7 @@ public class BoyOrGirl {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		String s = scn.next();
+		scn.close();
 		int[] store = new int[26];
 		int countDistinct = 0;
 

@@ -9,7 +9,7 @@ public class WordCapitalization {
 		Scanner scn = new Scanner(System.in);
 		String s = scn.next();
 		char[] arr = s.toCharArray();
-
+		scn.close();
 		if (Character.isUpperCase(arr[0])) {
 			System.out.print(s);
 		} else {

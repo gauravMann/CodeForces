@@ -20,6 +20,7 @@ public class BeautifulMatrix {
 				}
 			}
 		}
+		scn.close();
 
 		System.out.println(ans);
 

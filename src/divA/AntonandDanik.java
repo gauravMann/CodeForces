@@ -27,6 +27,7 @@ public class AntonandDanik {
 		} else {
 			System.out.print("Danik");
 		}
+		scn.close();
 
 	}
 

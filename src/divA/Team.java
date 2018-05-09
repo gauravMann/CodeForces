@@ -29,7 +29,7 @@ public class Team {
 				solveCount++;
 			}
 		}
-
+		in.close();
 		return solveCount;
 	}
 
@@ -47,6 +47,7 @@ public class Team {
 				ans++;
 			}
 		}
+		scn.close();
 		System.out.println(ans);
 
 	}

@@ -13,6 +13,7 @@ public class GravityFlip {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = scn.nextInt();
 		}
+		scn.close();
 		Arrays.sort(arr);
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + " ");
