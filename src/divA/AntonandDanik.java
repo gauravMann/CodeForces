@@ -11,6 +11,7 @@ public class AntonandDanik {
 		String s = scn.next();
 		int countAnton = 0;
 		int countDanik = 0;
+		
 
 		for (int i = 0; i < n; i++) {
 			if (s.charAt(i) == 'A') {
