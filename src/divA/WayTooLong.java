@@ -12,11 +12,11 @@ public class WayTooLong {
 			String s = scn.next();
 			if (s.length() > 10) {
 				int num = s.length() - 2;
-				StringBuilder rep = new StringBuilder();
-				rep.append(s.charAt(0) + "");
-				rep.append(num + "");
-				rep.append(s.charAt(s.length() - 1) + "");
-				System.out.println(rep);
+
+				System.out.print(s.charAt(0));
+				System.out.print(num);
+				System.out.print(s.charAt(s.length() - 1));
+				System.out.println();
 			} else {
 				System.out.println(s);
 			}
